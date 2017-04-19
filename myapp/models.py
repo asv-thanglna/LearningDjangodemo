@@ -48,5 +48,5 @@ class Entry(models.Model):
 	def __str__(self):
 		return self.headline
 
-def hh()
+def hh():
 	Entry.objects.filter(headline__contains='')
