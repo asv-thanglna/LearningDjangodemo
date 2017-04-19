@@ -50,3 +50,6 @@ class Entry(models.Model):
 
 def hh():
 	Entry.objects.filter(headline__contains='')
+
+class testnew():
+	pass
